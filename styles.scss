@@ -1,0 +1,115 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Aladin', Times, 'Times New Roman', serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("./images/forest-3394066_1920.jpg");
+}
+
+.container {
+  display: grid;
+  grid-template-rows: 450px;
+  width: 900px;
+  max-width: 80vw;
+  height: 650px;
+  max-height: 65vh;;
+  background-color: hsla(60, 56%, 91%, 0.85);
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px 2px;
+  text-align: center;
+}
+
+  .text {
+    font-size: 2.1rem;
+    font-weight: lighter;;
+    text-shadow: 1px 2px 2px rgb(0, 39, 7);
+  }
+
+//   .fade-in {
+//     animation: fadeIn ease 10s;
+//     -webkit-animation: fadeIn ease 10s;
+//     -moz-animation: fadeIn ease 10s;
+//     -o-animation: fadeIn ease 10s;
+//     -ms-animation: fadeIn ease 10s;
+//   }
+//   @keyframes fadeIn {
+//     0% {
+//       opacity:0;
+//     }
+//     100% {
+//       opacity:1;
+//     }
+//   }
+  
+//   @-moz-keyframes fadeIn {
+//     0% {
+//       opacity:0;
+//     }
+//     100% {
+//       opacity:1;
+//     }
+//   }
+  
+//   @-webkit-keyframes fadeIn {
+//     0% {
+//       opacity:0;
+//     }
+//     100% {
+//       opacity:1;
+//     }
+//   }
+  
+//   @-o-keyframes fadeIn {
+//     0% {
+//       opacity:0;
+//     }
+//     100% {
+//       opacity:1;
+//     }
+//   }
+  
+//   @-ms-keyframes fadeIn {
+//     0% {
+//       opacity:0;
+//     }
+//     100% {
+//       opacity:1;
+//   }
+// }
+
+  // .story-text {
+  //   animation-name: fadeIn;
+  //   animation-duration: 1.5s;
+  // }
+
+  // @keyframes fadeIn {
+  //   from {color: beige;}
+  //   to {color: black;}
+  // }
+
+.btn1, .btn2 {
+  background-color: saddlebrown;
+  border: 1px solid black;
+  border-radius: 15px;
+  padding: 5px 10px;
+  margin: 0px 35px 10px 35px;
+  color: green;
+  text-shadow: 2px 2px 2px black;
+  outline: none;
+  font-size: 3rem;
+  transition: opacity 2s;
+  &:hover {
+    box-shadow: 0px 0px 5px 5px brown;
+  }
+}
+
+
