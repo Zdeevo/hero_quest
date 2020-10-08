@@ -1,17 +1,10 @@
 "use strict";
 
-// import 'scripts/text.js';
-// setting variables for text and buttons
+// import * as storyText from '/scripts/text.js';
+// setting variables for text and button elements
 var textElement = document.querySelector('.text');
 var option1ButtonElement = document.querySelector('.btn1');
-var option2ButtonElement = document.querySelector('.btn2'); // function to start/reset the game
-// load welcome text with 'accept quest' button
-// when quest accepted, load quest story text with 'start quest' button
-// first story board with 2 options - each option leads to another story board with 2 options etc...
-// function to change html text section to relevant text when a button is clicked
-//  function to change option text in buttons each time
-// add event listener for button click
-// change button id's each time to reference the next story/button text
+var option2ButtonElement = document.querySelector('.btn2'); // intro text
 
 var intro1 = "The skies are growing dark, the mountains are rumbling, things are moving in the shadows and the people of the village are scared.<br> They need a hero. <br> Could it be you?";
 var intro2 = "You have accepted the quest. You are obviously brave, but are you wise enough to make it through the challenges ahead?";

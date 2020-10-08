@@ -1,19 +1,12 @@
-// import 'scripts/text.js';
+// import * as storyText from '/scripts/text.js';
 
-// setting variables for text and buttons
+// setting variables for text and button elements
+
 const textElement = document.querySelector('.text');
 const option1ButtonElement = document.querySelector('.btn1');
 const option2ButtonElement = document.querySelector('.btn2');
 
-// function to start/reset the game
-// load welcome text with 'accept quest' button
-// when quest accepted, load quest story text with 'start quest' button
-// first story board with 2 options - each option leads to another story board with 2 options etc...
-
-// function to change html text section to relevant text when a button is clicked
-//  function to change option text in buttons each time
-// add event listener for button click
-// change button id's each time to reference the next story/button text
+// intro text
 
 const intro1 = "The skies are growing dark, the mountains are rumbling, things are moving in the shadows and the people of the village are scared.<br> They need a hero. <br> Could it be you?"
 
@@ -77,14 +70,6 @@ const story26 = "Unfortunately you did not pass the test! There is a sudden flas
 
 const story27 = "Well done, you passed the test! Begrudgingly the grumpy old wizard sweeps his staff through the air above your head and you are magically transported to the coast. You find the army and deliver the message to the general. <br> The village will be saved. <br> You are a true hero!!"
 
-
-
-
-
-
-
-
-
 // button option text
 
 const introButton1 = "I accept!"
@@ -146,12 +131,6 @@ const option25 = "Hippogriff"
 const option26 = "Cockatrice"
 
 const restart = "Try again?"
-
-
-
-
-
-
 
 // Welcome page - Are you the hero we need??
 

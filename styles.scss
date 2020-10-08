@@ -11,7 +11,9 @@ body {
   align-items: center;
   width: 100vw;
   height: 100vh;
-  background-image: url("./images/forest-3394066_1920.jpg");
+  background-image: url("./images/IMG-20201006-WA0000.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .container {
@@ -21,7 +23,7 @@ body {
   max-width: 80vw;
   height: 650px;
   max-height: 65vh;;
-  background-color: hsla(60, 56%, 91%, 0.95);
+  background-color: hsla(60, 56%, 91%, 0.90);
   padding: 10px;
   border-radius: 5px;
   box-shadow: 0 0 10px 2px;
