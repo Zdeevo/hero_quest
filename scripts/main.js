@@ -76,7 +76,7 @@ const introButton1 = "I accept!"
 
 const introButton2 = "I'm ready to begin!"
 
-const introButton3 = "I'm not ready" 
+const introButton3 = "I'm not ready..." 
 
 const option1 = "Forest"
 

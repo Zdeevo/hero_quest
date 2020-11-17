@@ -7,6 +7,7 @@
 
 body {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 100vw;
@@ -16,38 +17,72 @@ body {
   background-size: cover;
 }
 
+.game-name {
+  width: 250px;
+  text-align: center;
+  background-color: rgba(245, 245, 219, 0.9);
+  margin-bottom: 15px;
+  border: 1px solid brown;
+  border-radius: 5px;
+  box-shadow: 0 0 10px 2px darkgreen, inset 0 0 40px saddlebrown;
+}
+.game-name .game-name-text {
+  font-family: "Aladin", Times, "Times New Roman", serif;
+  color: saddlebrown;
+  text-shadow: 2px 2px 5px darkgreen;
+  font-size: 3.5rem;
+  margin: 0;
+}
+
 .container {
   display: grid;
-  grid-template-rows: 450px;
-  width: 900px;
-  max-width: 80vw;
-  height: 650px;
-  max-height: 65vh;
+  grid-template-columns: 350px;
+  grid-template-rows: 450px 100px;
+  width: 350px;
+  height: 550px;
   background-color: rgba(245, 245, 219, 0.9);
-  padding: 10px;
+  margin: 0;
+  border: 1px solid brown;
   border-radius: 5px;
-  box-shadow: 0 0 10px 2px;
+  box-shadow: 0 0 10px 2px darkgreen, inset 0 0 40px saddlebrown;
+}
+.container .text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 340px;
+  margin: 0;
+  padding: 5px;
+  font-size: 1.4rem;
+  font-weight: 600;
   text-align: center;
 }
-
-.text {
-  font-size: 2.1rem;
-  font-weight: lighter;
-  text-shadow: 1px 2px 2px #002707;
+.container .button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 350px;
+  margin: 0;
+  padding: 5px;
 }
-
-.btn1, .btn2 {
-  background-color: saddlebrown;
-  border: 1px solid black;
-  border-radius: 15px;
+.container .button-container .btn1,
+.container .button-container .btn2 {
+  background-color: rgba(139, 69, 19, 0.8);
+  box-shadow: 0 0 10px 2px darkgreen, inset 0 0 40px saddlebrown;
+  border: 1px solid saddlebrown;
+  border-radius: 10px;
   padding: 5px 10px;
-  margin: 0px 35px 10px 35px;
-  color: green;
-  text-shadow: 2px 2px 2px black;
+  margin: 0px 10px 3px 10px;
+  color: #004b00;
+  text-shadow: 0.5px 0.5px 0.5px black;
   outline: none;
-  font-size: 3rem;
+  font-size: 1.5rem;
   transition: opacity 2s;
 }
-.btn1:hover, .btn2:hover {
-  box-shadow: 0px 0px 5px 5px brown;
+
+@media only screen and (min-width: 768px) {
+  .btn1:hover,
+.btn2:hover {
+    box-shadow: 0px 0px 5px 5px brown;
+  }
 }

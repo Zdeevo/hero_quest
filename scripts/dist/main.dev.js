@@ -40,7 +40,7 @@ var story27 = "Well done, you passed the test! Begrudgingly the grumpy old wizar
 
 var introButton1 = "I accept!";
 var introButton2 = "I'm ready to begin!";
-var introButton3 = "I'm not ready";
+var introButton3 = "I'm not ready...";
 var option1 = "Forest";
 var option2 = "Cave";
 var option3 = "Follow stream";
