@@ -64,7 +64,7 @@ const story23 = "You drop your sword and torch, and beg for mercy. This is the o
 
 const story24 = "You were right! The Hippogriff stays true to it's word and offers to fly you to the coast. You find the army and deliver the message to the general. <br> The village will be saved. <br> You are a true hero!!"
 
-const story25 = "Unfortunately you were wrong, she is a Hippogriff. And there's nothing a Hippogriff hates more than being mistaken for a Cockatrice. They have the body of a serpent for goodness sake!! <br> You are now food for it's hungry chicks! <br> You have failed the quest!"
+const story25 = "Unfortunately you were wrong, she is a Hippogriff. And there's nothing a Hippogriff hates more than being mistaken for a Cockatrice. They have the body of a serpent for goodness sake!! <br> You are now food for her hungry chicks! <br> You have failed the quest!"
 
 const story26 = "Unfortunately you did not pass the test! There is a sudden flash of light and with one sweep of the wizards staff you are no more. <br> You are dead, and the quest has failed!"
 
@@ -366,6 +366,7 @@ switch (btnClick) {
     textElement.innerHTML = story25;
     option1ButtonElement.innerHTML = restart;
     option1ButtonElement.setAttribute('id', 'restart');
+    option2ButtonElement.style.display = "none";
     break;
 }
 }

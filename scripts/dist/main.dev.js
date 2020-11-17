@@ -34,7 +34,7 @@ var story21 = "Not a very good idea! The beast is huge and easily defeats you. <
 var story22 = "You chose poorly. What were you thinking taking on a huge goblin with only a sword? With one swing of her mighty axe she lops off your head and adds it to her collection! <br> You have failed the quest!";
 var story23 = "You drop your sword and torch, and beg for mercy. This is the only chance you have to save the village. She puts away her sword and laughs like a thunder storm. She tells you just how pathetic she thinks you are, but luckily she takes pity on you and agrees to give you some helpful advice. She leads you through to a huge dark cavern, strewn with the remains of her previous victims. At the far end of the cavern are two doors, a large metal one and an old wooden one. <br> Both lead through the mountain but you must choose wisely.";
 var story24 = "You were right! The Hippogriff stays true to it's word and offers to fly you to the coast. You find the army and deliver the message to the general. <br> The village will be saved. <br> You are a true hero!!";
-var story25 = "Unfortunately you were wrong, she is a Hippogriff. And there's nothing a Hippogriff hates more than being mistaken for a Cockatrice. They have the body of a serpent for goodness sake!! <br> You are now food for it's hungry chicks! <br> You have failed the quest!";
+var story25 = "Unfortunately you were wrong, she is a Hippogriff. And there's nothing a Hippogriff hates more than being mistaken for a Cockatrice. They have the body of a serpent for goodness sake!! <br> You are now food for her hungry chicks! <br> You have failed the quest!";
 var story26 = "Unfortunately you did not pass the test! There is a sudden flash of light and with one sweep of the wizards staff you are no more. <br> You are dead, and the quest has failed!";
 var story27 = "Well done, you passed the test! Begrudgingly the grumpy old wizard sweeps his staff through the air above your head and you are magically transported to the coast. You find the army and deliver the message to the general. <br> The village will be saved. <br> You are a true hero!!"; // button option text
 
@@ -328,6 +328,7 @@ var clickFunction = function clickFunction(clicked_id) {
       textElement.innerHTML = story25;
       option1ButtonElement.innerHTML = restart;
       option1ButtonElement.setAttribute('id', 'restart');
+      option2ButtonElement.style.display = "none";
       break;
   }
 };
