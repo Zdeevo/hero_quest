@@ -18,7 +18,7 @@ body {
 }
 
 .game-name {
-  width: 250px;
+  width: 300px;
   text-align: center;
   background-color: rgba(245, 245, 219, 0.9);
   margin-bottom: 15px;
@@ -30,7 +30,7 @@ body {
   font-family: "Aladin", Times, "Times New Roman", serif;
   color: #3c0f00;
   text-shadow: 2px 2px 5px darkgreen;
-  font-size: 3.5rem;
+  font-size: 3rem;
   margin: 0;
 }
 
@@ -84,11 +84,11 @@ body {
 
 @media only screen and (min-width: 768px) {
   .game-name {
-    width: 400px;
+    width: 460px;
     margin-bottom: 15px;
   }
   .game-name .game-name-text {
-    font-size: 5rem;
+    font-size: 4.6rem;
   }
 
   .container {
